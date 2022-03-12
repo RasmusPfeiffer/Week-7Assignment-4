@@ -57,20 +57,4 @@ public class Student implements Comparable<Student> {
 				return +1;	
 			}
 	}
-		
-//	public int compareTo(Student that) {
-//		if (this.iGrade > that.iGrade) {
-//			return +1;
-//		} else if (this.iGrade.equals(that.iGrade)) {
-//			return 0;
-//		} else { 
-//			return -1;
-//		}
-//	}
-
-
-
-	
-
-	
 }
