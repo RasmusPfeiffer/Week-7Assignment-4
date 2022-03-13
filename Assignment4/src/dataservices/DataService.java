@@ -98,11 +98,11 @@ public class DataService {
 		BufferedWriter writer = null;
 		try {
 			writer = new BufferedWriter(new FileWriter(sFilename));
-			writer.write("StudentID Student Name Course  Grade\n");
+			writer.write("StudentID, Student Name, Course,  Grade\n");
 			for (int i = 0; i <= arrayName.length - 1; i++) {
 				if (arrayName[i] != null) {
-					writer.write(arrayName[i].getsStudentID() + " " + arrayName[i].getsStudentName() + " "
-							+ arrayName[i].getsCourse() + " " + arrayName[i].getsGrade() + "\n");
+					writer.write(arrayName[i].getsStudentID() + ", " + arrayName[i].getsStudentName() + ", "
+							+ arrayName[i].getsCourse() + ", " + arrayName[i].getsGrade() + "\n");
 				} 
 			}
 		} finally {
